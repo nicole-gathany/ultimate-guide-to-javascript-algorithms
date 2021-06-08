@@ -7,8 +7,8 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 function reverseString(text) {
     // Code goes here
-    // reverseString: chaining built-in methods
-    return text.split("").reverse().join("");
+    //ES6 built-in methods
+   return [...text].reverse().join("");
 }
 
 
