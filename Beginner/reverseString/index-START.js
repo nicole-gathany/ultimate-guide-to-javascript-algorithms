@@ -7,8 +7,10 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 function reverseString(text) {
     // Code goes here
+    // reverseString: chaining built-in methods
+    return text.split("").reverse().join("");
 }
 
 
 
-module.exports = reverseString
+module.exports = reverseString;
