@@ -7,8 +7,13 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 function reverseString(text) {
     // Code goes here
-    //ES6 built-in methods
-   return [...text].reverse().join("");
+    // USING A FOR LOOP
+    let result = [];
+    for(let i=text.length; i>=0; i--){
+        result.push(text[i])
+    }
+
+    return result.join("");
 }
 
 
